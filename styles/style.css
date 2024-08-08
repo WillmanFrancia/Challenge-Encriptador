@@ -1,0 +1,131 @@
+* {
+    background: #6c3c87;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    overflow: hidden;
+
+}
+
+.logo {
+    width: 5%;
+    border: 2px solid #0A3871;
+}
+
+
+
+
+main {
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid #0A3871;
+    justify-content: space-between;
+    height: 80%;
+    margin-left: 4%;
+
+}
+
+.seccion__izquierda {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+
+.text-area {
+    border: 2px solid #0A3871;
+    color: #0A3871;
+    height: 500px;
+    resize: none;
+    font-size: 32px;
+
+}
+
+::placeholder {
+    color: #0A3871
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+
+
+.mensaje {
+    background: white;
+    background-image: url('/assets/Muñeco.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #0A3871;
+    border-radius: 32px;
+    color: #0A3871;
+    height: 820px;
+    width: 400px;
+    resize: none;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+
+
+
+.informacion {
+    color: #495057;
+    font-size: 60%;
+    background-image: url(/assets/bi_exclamation-circle-fill.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+    border: 2px solid #0A3871;
+    gap: 40px;
+
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    position: inherit;
+    bottom: 10%;
+    left: 72%;
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    color: #0A3871;
+}
