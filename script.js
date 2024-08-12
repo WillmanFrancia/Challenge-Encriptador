@@ -1,5 +1,8 @@
 const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
+const btnCopiar = document.getElementById('btn-copiar');
+const textoInfo = document.getElementById('texto_cuadro');
+const textoInfo1 = document.getElementById('texto_cuadro1');
 
 /*La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
@@ -7,6 +10,7 @@ La letra "a" es convertida para "ai"
 La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat"
 */
+btnCopiar.style.visibility = 'hidden';
 
 function btnEncriptar() {
   const textoEncriptado = Encriptar(textArea.value);
@@ -33,6 +37,10 @@ function Encriptar(stringEncriptada) {
       );
     }
   }
+  btnCopiar.style.visibility =  'visible';
+  textoInfo.style.visibility = 'hidden';
+  textoInfo1.style.visibility = 'hidden';
+
   return stringEncriptada;
 }
 
@@ -67,5 +75,8 @@ function copiar() {
   copyText.select();
   copyText.setSelectionRange(0, 99999);
   navigator.clipboard.writeText(copyText.value);
-  alert("Copiaste el Texto" + copyText.value);
+  alert("Texto Copiado!");
+}
+function nuevo() {
+
 }

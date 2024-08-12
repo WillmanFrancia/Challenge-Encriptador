@@ -17,7 +17,7 @@
     <header>
         <img class="logo" src="assets/Logo.png" alt="Logo de alura latam">
     </header>
-    <main>
+    <main class="Willman">
         <section class="seccion__izquierda">
             <textarea class="text-area" placeholder="Ingrese el texto aquí"></textarea>
             <div>
@@ -30,9 +30,12 @@
         </section>
         <section class="seccion__derecha">
             <textarea class="mensaje" type='text' id="texto_copiar"></textarea>
-            <div>
-                <button class="btn-copiar" onclick="copiar();">Copiar</button>
+            <div class="seccion__derecha__texto">
+            <p id="texto_cuadro" class="texto__cuadro__1">Ningún mensaje fue encontrado</p>
+            <p id="texto_cuadro1" class ="texto__cuadro__2">Ingresa el texto que desees encriptar o desencriptar</p>
             </div>
+            <button id="btn-copiar" class="btn-copiar" onclick="copiar();">Copiar</button>
+
         </section>
     </main>
     <footer>Willman Lucas 2024</footer>
