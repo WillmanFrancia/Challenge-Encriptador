@@ -1,12 +1,12 @@
 * {
-    background:#F3F5FC;
+    background: #F3F5FC;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 150%;
 
 }
 
-header{
+header {
     padding: 0 40px;
 }
 
@@ -17,10 +17,10 @@ main {
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
-    margin-left: 4%;
-    padding: 0 40px 0 240px;
-
+    margin-left: 20px;
+    padding: 0 500px 0 240px;
     
+
 
 }
 
@@ -34,7 +34,7 @@ main {
 
 .text-area {
     color: #0A3871;
-    height: 400px;
+    height: 200px;
     resize: none;
     font-size: 32px;
     border-style: none;
@@ -51,8 +51,8 @@ main {
 }
 
 
-.seccion__derecha{
-    padding: 0 5%;
+.seccion__derecha {
+    padding: 0 40px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -61,51 +61,52 @@ main {
 
 }
 
-.mensaje  {
+.mensaje {
     background: white;
-    background-image: url('/assets/Muñeco.png');
+    background-image: url('/assets/Mueco.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: 200px;
+    background-position-y: 100px;
     border-radius: 32px;
     color: #495057;
-    height: 830px;
-    width: 450px;
+    height: 610px;
+    width: 380px;
     resize: none;
     text-align: center;
     font-size: 24px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-style: none;
     padding-top: 40px;
-    
+
 }
 
 .mensaje:focus {
     outline: none;
 }
 
-.seccion__derecha__texto{
+.seccion__derecha__texto {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 60%;
+    top: 440px;
     text-align: center;
-    background:none;
-    gap:1px;
+    background: none;
+    gap: 1px;
 
 }
-.texto__cuadro__1{ 
+
+.texto__cuadro__1 {
     width: 300px;
-    background:none;
+    background: none;
     font-weight: bold;
     font-size: 24px;
     text-align: center;
 }
 
-.texto__cuadro__2{
-    background:none;
-    font-size: 16px;
+.texto__cuadro__2 {
+    background: none;
+    font-size: 14px;
     color: #495057;
 }
 
@@ -156,12 +157,12 @@ main {
     position: absolute;
     top: 86%;
     background: none;
-    
+
 }
 
 footer {
     font-size: 16px;
     color: #0A3871;
     text-align: center;
-    margin: 2%;
+    margin: 1px;
 }
